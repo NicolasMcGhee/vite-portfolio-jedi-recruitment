@@ -1,0 +1,33 @@
+.navbar-Container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 1rem;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+}
+
+.navbar-Items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.navbar-List {
+    display: flex;
+    list-style-type: none;
+    gap: 2rem;
+}
+
+.navbar-List li:hover {
+    opacity: 50%;
+    cursor: pointer;
+}
+
+.navbar-Button {
+    background-color: black;
+    color: white;
+    padding: 1rem 2rem;
+    border: none;
+}
