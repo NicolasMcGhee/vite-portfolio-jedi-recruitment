@@ -1,0 +1,19 @@
+.Panel_Container {
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    align-items: center;
+    max-width: 25%;
+}
+
+.Panel_Text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.Panel_Text p {
+    text-align: justify;
+}
+

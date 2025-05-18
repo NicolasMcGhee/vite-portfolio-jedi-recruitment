@@ -3,7 +3,7 @@ import "./index.css";
 export default function Card(props) {
   return (
     <section className="Card-Container">
-      <div>
+      <div className="Card-Image">
         <img src={props.bgImage} alt="" />
       </div>
       <div className="Card-Text">

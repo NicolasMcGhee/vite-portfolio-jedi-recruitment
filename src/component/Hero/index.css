@@ -2,7 +2,7 @@
     background-color: black;
     color: white;
     display: flex;
-    
+    justify-content: space-between;
 }
 
 .reverse {
@@ -25,7 +25,7 @@
 }
 
 .Hero-Text h1 {
-    font-size: 3rem;
+    font-size: clamp(1.5rem, 5vw, 3.5rem);
     width: 40%;
 }
 
@@ -37,6 +37,8 @@
 }
 
 
-.Hero-Image {
-    
+@media (width <= 640px) {
+    .Hero-Container {
+        flex-direction: column;
+    }
 }

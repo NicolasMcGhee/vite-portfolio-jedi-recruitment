@@ -1,0 +1,23 @@
+.Footer_Container {
+    height: 25vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+}
+
+.Footer-List {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    gap: 2rem;
+}
+
+.Footer-List li:hover {
+    opacity: 50%;
+     cursor: pointer;
+}

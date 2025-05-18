@@ -4,6 +4,9 @@ import Navbar from "./component/Navbar";
 import Hero from "./component/Hero";
 import Card from "./component/Card";
 import Jedi from "./assets/Jedi_Waiting.png";
+import Icon from './assets/Symbols/Jedi_symbol.svg'
+import Panel from "./component/Panel";
+import Footer from "./component/Footer";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -20,6 +23,12 @@ function App() {
         <Card bgImage={Jedi} />
         <Card bgImage={Jedi} />
       </section>
+      <section className="Panel_Section">
+        <Panel image={Icon}/>
+        <Panel image={Icon}/>
+        <Panel image={Icon}/>
+      </section>
+      <Footer/>
     </>
   );
 }
