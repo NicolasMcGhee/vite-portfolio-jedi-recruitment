@@ -1,0 +1,25 @@
+.Council-Banner {
+    height: 1000px;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url('../../assets/Jedi_Council_Room.jpg');
+
+}
+.Council-Text {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    line-height: 1.8;
+    text-transform: capitalize;
+    max-width: 400px;
+    position: relative;
+    left: 10%;
+    top: 30%;
+    color: white;
+}
+.Council-Text h1 {
+    font-size: 3rem;
+    
+}

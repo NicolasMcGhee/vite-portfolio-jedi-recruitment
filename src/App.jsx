@@ -7,6 +7,9 @@ import Jedi from "./assets/Jedi_Waiting.png";
 import Icon from './assets/Symbols/Jedi_symbol.svg'
 import Panel from "./component/Panel";
 import Footer from "./component/Footer";
+import { Route, Routes } from "react-router";
+import HomePage from "./pages/home";
+import CouncilMembers from "./pages/council";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -14,20 +17,16 @@ function App() {
   return (
     <>
       <Navbar />
-      <Hero flip="no" />
-      <Hero flip="yes" bgWhite="yes" />
-      <Hero flip="no" bgWhite="yes" />
-      <section className="grid">
-        <Card bgImage={Jedi} />
-        <Card bgImage={Jedi} />
-        <Card bgImage={Jedi} />
-        <Card bgImage={Jedi} />
-      </section>
-      <section className="Panel_Section">
-        <Panel image={Icon}/>
-        <Panel image={Icon}/>
-        <Panel image={Icon}/>
-      </section>
+      <Routes>
+        <Route
+          path="/"
+          element={<HomePage/>}
+        />
+        <Route
+          path="/council-members"
+          element={<CouncilMembers/>}
+        />
+      </Routes>
       <Footer/>
     </>
   );
