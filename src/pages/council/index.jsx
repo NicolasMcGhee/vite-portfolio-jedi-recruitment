@@ -28,6 +28,9 @@ export default function CouncilMembers() {
         </div>
       </div>
       {/* Cards */}
+      <div className="ProfileCard-title">
+        <h1>A Few Of Its Members</h1>
+      </div>
       <div className="Council-ProfileCardContainer">
         <ProfileCard 
           profileImage={Yoda}

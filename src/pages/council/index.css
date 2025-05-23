@@ -21,13 +21,21 @@
 }
 .Council-Text h1 {
     font-size: 3rem;
-    
 }
+
+.ProfileCard-title {
+    text-align: center;
+    padding: 2rem 0;
+    text-transform: uppercase;
+    background-color: black;
+    color: whitesmoke;
+}
+
 
 .Council-ProfileCardContainer {
     margin: 5rem 0;
     display: grid;
-    grid-template-columns: repeat(3, 300px);
+    grid-template-columns: repeat(3, 500px);
     /* justify-content: space-; */
     gap: 5rem;
     place-content: center;

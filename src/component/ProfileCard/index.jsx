@@ -6,7 +6,7 @@ export default function ProfileCard(props) {
   return (
     <div className='Profilecard-Container'>
         <div className='Profilecard-Image'>
-            <img src={props.profileImage} alt="" width={250} />
+            <img src={props.profileImage} alt="" width={400} />
         </div>
         <div>
             <h1>{props.name}</h1>
