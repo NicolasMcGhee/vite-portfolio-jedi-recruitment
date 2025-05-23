@@ -1,7 +1,10 @@
 import React from "react";
 import "./index.css";
-import Hero from "../../component/Hero";
-import JediCouncilRoom from "../../assets/Jedi_Council_Room.jpg";
+import ProfileCard from "../../component/ProfileCard";
+import Yoda from '../../assets/Jedi/Yoda.png'
+import MaceWindu from '../../assets/Jedi/Windu.png'
+import Kenobi from '../../assets/Jedi/Kenobi.png'
+import Anakin from '../../assets/Jedi/Anakin.png'
 
 export default function CouncilMembers() {
   return (
@@ -24,7 +27,39 @@ export default function CouncilMembers() {
           </div>
         </div>
       </div>
-      {/* <img src={JediCouncilRoom} alt="" /> */}
+      {/* Cards */}
+      <div className="Council-ProfileCardContainer">
+        <ProfileCard 
+          profileImage={Yoda}
+          name="Yoda"
+          ranking="Grandmaster"
+        />
+        <ProfileCard 
+          profileImage={MaceWindu}
+          name="Mace Windu"
+          ranking="Jedi Master"
+        />
+        <ProfileCard 
+          profileImage={Kenobi}
+          name="Obi-wan Kenobi"
+          ranking="Jedi Master"
+        />
+        <ProfileCard 
+          profileImage={Yoda}
+          name="Yoda"
+          ranking="Grandmaster"
+        />
+        <ProfileCard 
+          profileImage={Yoda}
+          name="Yoda"
+          ranking="Grandmaster"
+        />
+        <ProfileCard 
+          profileImage={Anakin}
+          name="Anakin Skywalker"
+          ranking="Jedi Knight"
+        />
+      </div>
     </section>
   );
 }

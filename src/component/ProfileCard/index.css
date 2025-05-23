@@ -1,0 +1,18 @@
+.Profilecard-Container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    /* border: 3px solid rgba(0, 0, 0, 0.394); */
+    padding: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.286);
+    border-radius: 1rem;
+}
+
+
+
+.Profilecard-Image img {
+    border-radius: 10px;
+}
