@@ -1,10 +1,10 @@
 import React from "react";
 import "./index.css";
 import ProfileCard from "../../component/ProfileCard";
-import Yoda from '../../assets/Jedi/Yoda.png'
-import MaceWindu from '../../assets/Jedi/Windu.png'
-import Kenobi from '../../assets/Jedi/Kenobi.png'
-import Anakin from '../../assets/Jedi/Anakin.png'
+import Yoda from "../../assets/Jedi/Yoda.png";
+import MaceWindu from "../../assets/Jedi/Windu.png";
+import Kenobi from "../../assets/Jedi/Kenobi.png";
+import Anakin from "../../assets/Jedi/Anakin.png";
 
 export default function CouncilMembers() {
   return (
@@ -32,36 +32,37 @@ export default function CouncilMembers() {
         <h1>A Few Of Its Members</h1>
       </div>
       <div className="Council-ProfileCardContainer">
-        <ProfileCard 
-          profileImage={Yoda}
-          name="Yoda"
-          ranking="Grandmaster"
-        />
-        <ProfileCard 
+        <ProfileCard profileImage={Yoda} name="Yoda" ranking="Grandmaster" />
+        <ProfileCard
           profileImage={MaceWindu}
           name="Mace Windu"
           ranking="Jedi Master"
         />
-        <ProfileCard 
+        <ProfileCard
           profileImage={Kenobi}
           name="Obi-wan Kenobi"
           ranking="Jedi Master"
         />
-        <ProfileCard 
-          profileImage={Yoda}
-          name="Yoda"
-          ranking="Grandmaster"
-        />
-        <ProfileCard 
-          profileImage={Yoda}
-          name="Yoda"
-          ranking="Grandmaster"
-        />
-        <ProfileCard 
+        <ProfileCard profileImage={Yoda} name="Yoda" ranking="Grandmaster" />
+        <ProfileCard profileImage={Yoda} name="Yoda" ranking="Grandmaster" />
+        <ProfileCard
           profileImage={Anakin}
           name="Anakin Skywalker"
           ranking="Jedi Knight"
         />
+      </div>
+      <div className="Council-Footer">
+        <div className="Footer-Text">
+          <div className="Footer-Details">
+            <h1>Coruscant</h1>
+            <h3>Home To The Replubic</h3>
+          </div>
+
+          <div className="flex">
+            <h2>Look Here</h2>
+            <p>----&gt;</p>
+          </div>
+        </div>
       </div>
     </section>
   );

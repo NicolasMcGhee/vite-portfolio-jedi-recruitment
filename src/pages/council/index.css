@@ -7,6 +7,42 @@
     background-image: url('../../assets/Jedi_Council_Room.jpg');
 
 }
+
+.Council-Footer {
+    height: 700px;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-position: top;
+    background-image: url('../../assets/backgrounds/Coruscant-EotE.jpg');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Footer-Text {
+    display: flex;
+    color: white;
+    backdrop-filter: blur(5px);
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 1rem;
+    color: grey;
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+}
+
+.Footer-Details {
+    gap: 1rem;
+    justify-content: center;
+    /* width: 30%; */
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+
 .Council-Text {
     display: flex;
     flex-direction: column;
