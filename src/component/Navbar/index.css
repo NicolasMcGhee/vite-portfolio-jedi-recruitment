@@ -1,45 +1,116 @@
 .navbar-Container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 1rem;
+  font-weight: bold;
+  letter-spacing: 0.2rem;
+}
+
+.navbar-Home {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    padding: 1rem;
-    font-weight: bold;
-    letter-spacing: 0.2rem;
+    gap: 1rem;
+}
+
+.navbar-Home a {
+    text-decoration: none;
+    color: black;
 }
 
 .navbar-Items {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 1rem;
+  display: hidden;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
 }
 .navbar-Items a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 .navbar-Items a:hover {
-    opacity: 50%;
+  opacity: 50%;
 }
 
 .navbar-List {
-    display: flex;
-    list-style-type: none;
-    gap: 2rem;
-    
+  display: none;
+  list-style-type: none;
+  gap: 2rem;
 }
 
 .navbar-List a {
-    color: black;
-    text-decoration: none;
+  color: black;
+  text-decoration: none;
 }
 .navbar-List li:hover {
-    opacity: 50%;
-    cursor: pointer;
+  opacity: 50%;
+  cursor: pointer;
 }
 
 .navbar-Button {
-    background-color: black;
-    color: white;
-    padding: 1rem 2rem;
-    border: none;
+  display: none;
+  background-color: black;
+  color: white;
+  padding: 1rem 2rem;
+  border: none;
+}
+
+.mobile-Button {
+  background-color: black;
+  color: white;
+  padding: 1rem 2rem;
+  border: none;
+  
+}
+
+.hidden {
+    display: none;
+}
+
+.mobile-List {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    left: 1.5rem;
+    right: 1.5rem;
+    background-color: white;
+    color: black;
+    list-style-type: none;
+    top: 5.2rem;
+    gap: 1rem;
+    padding: 2rem;
+    filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.5));
+}
+
+.mobile-List a {
+  /* text-decoration: none; */
+  color: black;
+  
+}
+
+@media (min-width: 768px) {
+  .navbar-List {
+    display: flex;
+  }
+  .navbar-Button {
+    display: block;
+  }
+
+  .mobile-Button {
+    display: none;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  .show {
+    display: none;
+  }
+
+  .mobile-List {
+    display: none;
+  }
+
 }
