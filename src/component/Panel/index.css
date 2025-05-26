@@ -17,3 +17,10 @@
     text-align: justify;
 }
 
+@media (width <= 768px) {
+    .Panel_Container {
+        max-width: 80%;
+        
+    }
+
+}

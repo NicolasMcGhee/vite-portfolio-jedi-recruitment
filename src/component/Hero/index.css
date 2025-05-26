@@ -41,4 +41,7 @@
     .Hero-Container {
         flex-direction: column;
     }
+    .Hero-Text {
+        padding: 2rem 0;
+    }
 }

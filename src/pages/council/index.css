@@ -20,7 +20,7 @@
     justify-content: center;
 }
 
-.Footer-Text {
+/* .Footer-Text {
     display: flex;
     color: white;
     backdrop-filter: blur(5px);
@@ -31,7 +31,7 @@
     font-size: 3rem;
     text-transform: uppercase;
     letter-spacing: 0.2rem;
-}
+} */
 
 .Footer-Details {
     gap: 1rem;
@@ -88,5 +88,9 @@
     .Council-ProfileCardContainer {
         padding: 0 2rem;
         grid-template-columns: 1fr;
+    }
+
+    .Footer-Text {
+        flex-direction: column;
     }
 }

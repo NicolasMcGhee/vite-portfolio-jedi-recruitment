@@ -53,7 +53,7 @@ export default function CouncilMembers() {
       </div>
       <div className="Council-Footer">
         <div className="Footer-Text">
-          <div className="Footer-Details">
+          {/* <div className="Footer-Details">
             <h1>Coruscant</h1>
             <h3>Home To The Replubic</h3>
           </div>
@@ -61,7 +61,7 @@ export default function CouncilMembers() {
           <div className="flex">
             <h2>Look Here</h2>
             <p>----&gt;</p>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

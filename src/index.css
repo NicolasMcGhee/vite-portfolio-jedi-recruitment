@@ -18,7 +18,7 @@ img {
   align-items: center;
   margin-inline: auto;
   justify-content: space-around;
-  /* width: 50%; */
+  max-width: 2000px;
 }
 
 /* General Classes */
@@ -30,9 +30,7 @@ img {
 .grid {
   display: grid;
   grid-template-columns: repeat(4, 500px);
-  /* background-color: aquamarine; */
   place-content: center;
-  /* gap: 1rem; */
 }
 
 .flex {
@@ -41,10 +39,13 @@ img {
   align-items: center;
 }
 
-
 @media (width <= 640px) {
-    .grid {
-      padding: 0 1rem;
-        grid-template-columns: 1fr;
-    }
+  .grid {
+    padding: 0 1rem;
+    grid-template-columns: 1fr;
+  }
+
+  .Panel_Section {
+    flex-direction: column;
+  }
 }

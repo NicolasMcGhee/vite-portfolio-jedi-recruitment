@@ -10,12 +10,14 @@ export default function HomePage(props) {
       <Hero flip="no" />
       <Hero flip="yes" bgWhite="yes" />
       <Hero flip="no" bgWhite="yes" />
+      {/* 2nd Part: Cards */}
       <section className="grid">
         <Card bgImage={Jedi} />
         <Card bgImage={Jedi} />
         <Card bgImage={Jedi} />
         <Card bgImage={Jedi} />
       </section>
+      {/* 3rd Part: Work/Life */}
       <section className="Panel_Section">
         <Panel image={Icon} />
         <Panel image={Icon} />
