@@ -54,7 +54,9 @@
     left: 10%;
     top: 30%;
     color: white;
+    /* padding: 0 1rem; */
 }
+
 .Council-Text h1 {
     font-size: 3rem;
 }
@@ -89,6 +91,11 @@
         padding: 0 2rem;
         grid-template-columns: 1fr;
     }
+    .Council-Text {
+        color: red;
+        width: 90%;
+    }
+
 
     .Footer-Text {
         flex-direction: column;
