@@ -11,7 +11,9 @@ export default function Hero(props) {
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat molestiae quas quae temporibus, ex dolores modi debitis necessitatibus. Ad, debitis? Facere voluptatem cum blanditiis. Excepturi!</p>
         </div>
         <div className='Hero-Image'>
-            <img src={JediWating} alt=""/>
+            <img src={JediWating} alt="">
+            </img>
+            <p className='Hero-Image_Text'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio nobis quod saepe.</p>
         </div>
     </section>
   )
