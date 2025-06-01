@@ -3,6 +3,8 @@ import Hero from "../../component/Hero";
 import Card from "../../component/Card";
 import Panel from "../../component/Panel";
 import Jedi from "../../assets/Jedi_Waiting.png";
+import Jedi_Yoda from "../../assets/Yoda_Background.png";
+import Jedi_High_Republic from "../../assets/Jedi_High_Republic.png";
 import Icon from "../../assets/Symbols/Jedi_symbol.svg";
 import Yoda from "../../assets/Jedi/Yoda.png";
 import MaceWindu from "../../assets/Jedi/Windu.png";
@@ -11,9 +13,9 @@ import Anakin from "../../assets/Jedi/Anakin.png";
 export default function HomePage(props) {
   return (
     <>
-      <Hero flip="no" />
-      <Hero flip="yes" bgWhite="yes" />
-      <Hero flip="no" bgWhite="yes" />
+      <Hero flip="no" JediImage={Jedi}/>
+      <Hero flip="yes" bgWhite="yes" JediImage={Jedi_Yoda}/>
+      <Hero flip="no" bgWhite="yes" JediImage={Jedi_High_Republic} width="750"/>
       {/* 2nd Part: Cards */}
       <section className="grid">
         <Card bgImage={Yoda} rank="Grandmaster" name="Yoda" />

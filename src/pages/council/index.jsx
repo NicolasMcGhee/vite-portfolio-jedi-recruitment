@@ -5,6 +5,8 @@ import Yoda from "../../assets/Jedi/Yoda.png";
 import MaceWindu from "../../assets/Jedi/Windu.png";
 import Kenobi from "../../assets/Jedi/Kenobi.png";
 import Anakin from "../../assets/Jedi/Anakin.png";
+import Shaak_Ti from "../../assets/Jedi/Shaak_Ti.png";
+import Plo_Koon from "../../assets/Jedi/Plo_Koon.png";
 
 export default function CouncilMembers() {
   return (
@@ -43,8 +45,16 @@ export default function CouncilMembers() {
           name="Obi-wan Kenobi"
           ranking="Jedi Master"
         />
-        <ProfileCard profileImage={Yoda} name="Yoda" ranking="Grandmaster" />
-        <ProfileCard profileImage={Yoda} name="Yoda" ranking="Grandmaster" />
+        <ProfileCard
+          profileImage={Shaak_Ti}
+          name="Shaak Ti"
+          ranking="Jedi Master"
+        />
+        <ProfileCard
+          profileImage={Plo_Koon}
+          name="Plo Koon"
+          ranking="Jedi Master"
+        />
         <ProfileCard
           profileImage={Anakin}
           name="Anakin Skywalker"
