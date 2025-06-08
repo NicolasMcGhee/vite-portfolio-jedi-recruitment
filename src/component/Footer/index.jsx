@@ -12,7 +12,7 @@ export default function Footer() {
         </ul>
       </div>
       <div>
-        <div className="flex">
+        <div className="flex Footer-Link">
           <h2>Look Here</h2>
           <p>----&gt;</p>
         </div>

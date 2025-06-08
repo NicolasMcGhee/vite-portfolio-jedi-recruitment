@@ -23,7 +23,7 @@ export default function CouncilMembers() {
             fugit ipsum consequatur illum molestias quibusdam quae minima nemo.
             Eligendi exercitationem harum perferendis nihil earum id.
           </p>
-          <div className="flex">
+          <div className="flex Footer-Link">
             <h2>Look Here</h2>
             <p>----&gt;</p>
           </div>

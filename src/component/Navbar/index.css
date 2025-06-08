@@ -18,6 +18,11 @@
     color: black;
 }
 
+.navbar-Home a:hover{ 
+  opacity: 50%;
+  cursor: pointer;
+}
+
 .navbar-Items {
   display: hidden;
   align-items: center;
@@ -54,6 +59,11 @@
   padding: 1rem 2rem;
   border: none;
 }
+.navbar-Button:hover {
+  opacity: 80%;
+  cursor: pointer;
+}
+
 
 .mobile-Button {
   background-color: black;

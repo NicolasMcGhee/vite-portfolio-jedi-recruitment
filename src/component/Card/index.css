@@ -26,11 +26,3 @@
   position: absolute;
   color: white;
 }
-
-
-
-@media (width <= 640px) {
-  .Card-Text {
-    /* grid-template-columns: 1fr; */
-  }
-}
