@@ -21,6 +21,8 @@
 .Footer-Link:hover {
   opacity: 50%;
   cursor: pointer;
+  transition-duration: var(--fade-timing);
+  transition-property: opacity;
 }
 
 @media (width <= 768px) {

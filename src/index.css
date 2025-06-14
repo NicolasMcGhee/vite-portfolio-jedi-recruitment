@@ -10,6 +10,11 @@ img {
   max-width: 100%;
 }
 
+/* Variables */
+:root {
+  --fade-timing: .3s;
+}
+
 /* Panel Section */
 .Panel_Section {
   display: flex;
@@ -39,6 +44,7 @@ img {
   align-items: center;
 }
 
+
 @media (width <= 640px) {
   .grid {
     padding: 0 1rem;
@@ -49,3 +55,6 @@ img {
     flex-direction: column;
   }
 }
+
+
+

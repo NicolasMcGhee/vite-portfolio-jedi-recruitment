@@ -21,6 +21,8 @@
 .navbar-Home a:hover{ 
   opacity: 50%;
   cursor: pointer;
+  transition-duration: var(--fade-timing);
+  transition-property: opacity;
 }
 
 .navbar-Items {
@@ -35,6 +37,8 @@
 }
 .navbar-Items a:hover {
   opacity: 50%;
+  transition-duration: var(--fade-timing);
+  transition-property: opacity;
 }
 
 .navbar-List {
@@ -48,8 +52,10 @@
   text-decoration: none;
 }
 .navbar-List li:hover {
-  opacity: 50%;
+  opacity: 90%;
   cursor: pointer;
+  transition-duration: var(--fade-timing);
+  transition-property: opacity;
 }
 
 .navbar-Button {
@@ -62,6 +68,8 @@
 .navbar-Button:hover {
   opacity: 80%;
   cursor: pointer;
+  transition-duration: var(--fade-timing);
+  transition-property: opacity;
 }
 
 
